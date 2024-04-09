@@ -88,8 +88,8 @@ function renderNoteList(item) {
     listElement.innerHTML = ` 
     <div>
             <p>${item.desc}</p>
-            <p><span>Tarih:</span>${item.date}</p>
-            <p><span>Durum:</span>${detecType(item.status)}</p>
+            <p><span>Date:</span>${item.date}</p>
+            <p><span>Statu:</span>${detecType(item.status)}</p>
 
             <i class="bi bi-x" id="delete"></i>
             <i class="bi bi-airplane-fill" id="fly"></i>

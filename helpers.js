@@ -2,11 +2,13 @@
 export const detecType = (type) => {
   switch (type) {
     case "park":
-      return "Park Yeri";
+      return "parc";
     case "home":
-      return "Ev";
+      return "Maison";
     case "goto":
-      return "Ziyaret Edilecek";
+      return "visiter";
+      case "job":
+      return "travail"
   }
 };
 
